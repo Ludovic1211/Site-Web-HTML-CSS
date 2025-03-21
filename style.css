@@ -191,3 +191,29 @@ header {
     top: -80vh;
     left: 2.1vw;
 }
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%; /* Adjust the width as needed */
+    font-size: 1.2rem;
+    color: white;
+    background-color: #c1b086;
+    border: white solid 0.2vh;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    left: 55%;
+    margin-top: 14vh;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 60px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.button-container a {
+    color: white;
+    text-decoration: none;
+}
