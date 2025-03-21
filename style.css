@@ -92,18 +92,21 @@ header {
     justify-content: center;
     align-items: center;
     border: 0.5vh solid #c1b086;
-    border-radius: 10%;
+    border-radius: 7%;
     overflow: hidden;
-    width: 17%;
-    height: 50%;
+    width: 18%;
+    height: 51%;
     margin-left: 10vw;
-    margin-top: 10vh;
+    margin-top: 15vh;
 }
 
 .image1 {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
@@ -112,17 +115,58 @@ header {
     justify-content: center;
     align-items: center;
     border: 0.5vh solid #c1b086;
-    border-radius: 10%;
+    border-radius: 8%;
     overflow: hidden;
-    width: 17%;
-    height: 50%;
+    width: 22%;
+    height: 28%;
     position: relative;
-    top: 10vh;
-    left: 20vw;
+    top: -20vh;
+    left: 19vw;
 }
 
 .image2 {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title1 {
+    display: flex;
+    font-size: 1.1rem;
+    margin-left: 19vw;
+    margin-top: -76vh;
+    color: #0000007c;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    letter-spacing: 0.2rem;
+}
+
+.title2 {
+    display: flex;
+    font-size: 2.3rem;
+    margin-left: 26vw;
+    margin-top: 3vh;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    letter-spacing: 0.2rem;
+}
+
+.text1 {
+    display: flex;
+    font-size: 1.2rem;
+    color: #000000a1;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align: justify;
+    margin-top: 5vh;
+    margin-left: 48vw;
+    width: 50%;
+    letter-spacing: 0.1rem;
+    line-height: 1.6;
 }
