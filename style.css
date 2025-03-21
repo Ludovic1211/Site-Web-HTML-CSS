@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body, html {
+  margin: 0;
+  height: 100%;
+  font-family: 'Roboto Slab', serif;
+}
+
+.background1 {
+    background-image: url(./images/home1.jpg);
+
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page1 {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.logo {
+    scale: 0.6;
+    margin-left: 6vw;
+}
+
+.boutons {
+    margin-left: auto;
+    margin-right: 9vw;
+    display: flex;
+    top: 0vh;
+}
+
+.boutons a {
+    color: white;
+    text-decoration: none;
+    padding: 2rem 2.5rem;
+    font-size: 1.2rem;
+}
+
+.H {
+    font-family: "Roboto Slab", serif;
+    font-size: 40rem;
+    color: white;
+    opacity: 0.2;
+    display: flex;
+    font-weight: 700;
+    margin-left: 14vw;
+    margin-top: -3.5vh;
+}
+
+.title {
+    display: flex;
+    font-size: 7.2rem;
+    margin-left: -37.3vw;
+    margin-top: -41.5vh;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.text {
+    display: flex;
+    font-size: 1.46rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align-last: justify;
+    margin-top: 8.8vh;
+    margin-left: -18.5vw;
+}
+
+
+.page2 {
+    height: 100%;
+    width: 100%;
+    padding-top: 5rem;
+}
+
+.image-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5vh solid #c1b086;
+    border-radius: 10%;
+    overflow: hidden;
+    width: 17%;
+    height: 50%;
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+
+.image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.image-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5vh solid #c1b086;
+    border-radius: 10%;
+    overflow: hidden;
+    width: 17%;
+    height: 50%;
+    position: relative;
+    top: 10vh;
+    left: 20vw;
+}
+
+.image2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
