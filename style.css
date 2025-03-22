@@ -217,3 +217,43 @@ header {
     color: white;
     text-decoration: none;
 }
+
+
+.page3 {
+    height: 100%;
+    width: 100%;
+}
+
+.pool {
+    width: 100%;
+    height: 50%;
+}
+
+.pool-image{
+    border: solid 0.5vh #c1b086;
+}
+
+.amenities-overlay {
+    position: relative;
+    width: 46%;
+    height: 50%;
+    background-color: rgb(63, 156, 193);
+    opacity: 0.3;
+    border: solid 0.5vh #c1b086;
+    border-radius: 2rem;
+    top: -17vh;
+    left: 45vw;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+}
+
+.amenities-title1 {
+    position: relative;
+    font-size: 1.5rem;
+    margin-top: 8vh;
+    margin-left: 2vw;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    letter-spacing: 0.2rem;
+}
