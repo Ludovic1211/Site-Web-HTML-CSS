@@ -244,6 +244,11 @@ header {
     top: -17vh;
     left: 45vw;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.amenities-overlay:hover {
+    opacity: 1;
 }
 
 .amenities-title1 {
@@ -272,6 +277,7 @@ header {
 }
 
 .amenities-text2{
+    width: 30%;
     position: relative;
     font-size: 1.1rem;
     color: #ffffff;
@@ -279,7 +285,62 @@ header {
     align-items: center;
     text-align: justify;
     margin-top: 2vh;
-    margin-left: 2vw;
+    margin-left: 1.9vw;
     letter-spacing: 0.1rem;
-    line-height: 2.7;
+    line-height: 3.7rem;
+}
+
+.amenities-text3 {
+    width: 30%;
+    position: relative;
+    font-size: 1.1rem;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    left: 18vw;
+    top: -13.8vh;
+    letter-spacing: 0.1rem;
+    line-height: 3.7rem;
+}
+
+.amenities-text4 {
+    width: 30%;
+    position: relative;
+    font-size: 1.1rem;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    left: 30vw;
+    top: -27.7vh;
+    letter-spacing: 0.1rem;
+    line-height: 3.7rem;
+}
+
+.button-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%; /* Adjust the width as needed */
+    scale: 0.8;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #c1b086;
+    border: white solid 0.2vh;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    left: 94.5vw;
+    margin-top: -16vh;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+    border-radius: 60px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.button-container2 a {
+    color: white;
+    text-decoration: none;
 }
